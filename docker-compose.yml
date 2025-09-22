@@ -1,0 +1,9 @@
+services:
+  dev:
+    image: cpp-dev:ubuntu-22.04
+    container_name: cpp-dev
+    working_dir: /work
+    volumes:
+      - ./:/work:cached
+    tty: true
+    stdin_open: true
