@@ -1,0 +1,9 @@
+.git
+build
+.vscode
+.idea
+*.o
+*.obj
+*.a
+*.lib
+*.log
